@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f8f9fa;
+  color: #1a1a2e;
+}
+
+.font-serif {
+  font-family: 'Lora', Georgia, serif;
+}
+
+svg:focus,
+svg *:focus {
+  outline: none;
+}
